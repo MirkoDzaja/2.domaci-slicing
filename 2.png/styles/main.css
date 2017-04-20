@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 0 0;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.left-top{
+    /*display: block;
+    text-align: left;*/ /*top mi nije u jednoj liniji, centriranje radi za sve velicine prozora*/
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.left-top > .button{
+    width: 15px;
+    margin: 30px 0 0 30px;
+}
+
+.left-top > .text{
+    margin: 0 0 10px 2px;
+}
+
+.years{
+    /*display: block;
+    text-align: center;*/ /*top mi nije u jednoj liniji, centriranje radi za sve velicine prozora*/
+    margin: auto 450px; /*top radi samo za neke velicine prozora*/
+    word-spacing: 20px;
+    font-size: 13px;
+}
+
+.years > .first{
+    font-weight: 600;
+}
+.years > .other{
+    opacity: 0.4;
+}
+
+.right-top-button{
+    font-weight: 600;
+    /*display: block;
+    float: right;*/ /*top mi nije u jednoj liniji, centriranje radi za sve velicine prozora*/ 
+    font-size: 13px;
+    padding: 5px 15px;
+    border-style: solid;
+    border-radius: 24px;
+    border-color: Tomato;
+}
+
+.title{
+    text-align: center;
+}
+
+.title > .main{
+    font-size: 40px;
+    margin: 120px 0 0 0;
+}
+
+.title > .subtitle{
+    font-size: 13px;
+    margin: 0 0 120px 0;
+    
+}
+
+.content{
+    text-align: center;
+    background-color: WhiteSmoke ;
+}
+
+.date{
+    opacity: 0.4;
+    padding-top: 70px;
+    font-size: 13px;
+}
+
+.content > .title{
+    font-size: 17px;
+    margin-bottom: 45px;
+    display: inline-block;
+    width:  400px;
+    line-height: 20px;
+}
+
+.content > .photo{
+    width: 400px;
+}
+
+.article{
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    display: inline-block;
+    width:  500px;
+    font-weight: 600;
+    color: DimGray ;
+    line-height: 20px;
+}
+
+.arrow{
+    width: 15px;
+    height: 10px;
+}
+
+.three-spots{
+    font-size: 30px;
+    font-weight: 600;
+    color: DimGray ;
+    letter-spacing: 5px;
+    padding-bottom: 70px;
+}

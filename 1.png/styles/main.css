@@ -1,0 +1,55 @@
+body {
+    font-family: 'Old Standard TT', sans-serif;
+    background-color: WhiteSmoke;
+    margin: 60px 0;
+}
+
+.content{
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 30px 87px -38px rgba(0,0,0,0.75);
+}
+
+.photo{
+    margin: 0 auto;
+    background-image: url("http://www.telegraph.co.uk/content/dam/films/spark/moana/bora-bora-large.jpg");
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    background-position: center;
+}
+
+.header{
+    font-family: 'Graphie', sans-serif;
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin: 35px 0 0 0;
+    font-weight: 700;
+    color: 	silver;
+}
+
+.title{
+    font-size: 30px;
+    display: inline-block;
+    width: 350px;
+}
+.h1__title{
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+
+.sign{
+     width: 62px;
+     margin-bottom: 34px;
+}
+
+.article{
+    font-size: 23px;
+    opacity: 0.65;
+    display: inline-block;
+    width: 350px;
+    margin-bottom: 45px;
+    line-height: 40px;
+}
